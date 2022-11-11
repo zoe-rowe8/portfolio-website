@@ -2,15 +2,15 @@
 Colors used
 
 Text Colour (Dark Gray): #2b2b2b;
-Primary Color (Purple): #357b70
-Secondary Color (Orange): #e0b354;
+Primary Color (green): #367b70;
+Secondary Color (blue): #33ffcc;
 */
 
 :root {
-  --primary-color: #357b70;
-  --secondary-color: #e0b354;
+  --primary-color: #367b70;
+  --secondary-color: #33ffcc;
   --dark-grey: #2b2b2b;
-  --background-color: #E6E6FA;
+  --background-color: lightcyan;
 }
 
 body {
@@ -297,4 +297,23 @@ button:focus,
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
+}
+
+
+.contact {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.address {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
 }
