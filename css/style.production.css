@@ -9,8 +9,8 @@
 Colors used
 
 Text Colour (Dark Gray): #2b2b2b;
-Primary Color (Purple): #357b70
-Secondary Color (Orange): #e0b354;
+Primary Color (green): #367b70;
+Secondary Color (blue): #33ffcc;
 */
 
 body {
@@ -20,7 +20,7 @@ body {
   /* Sets the font size to 16px */
   line-height: 1.6;
   /* Sets the line-height to 1.6 */
-  background-color: #E6E6FA;
+  background-color: lightcyan;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h3 {
 }
 
 a {
-  color: #357b70;
+  color: #367b70;
 }
 
 a:visited {
@@ -78,7 +78,7 @@ a:active {
 }
 
 .button_secondary {
-  background-color: #e0b354;
+  background-color: #33ffcc;
   color: #2b2b2b;
 }
 
@@ -378,4 +378,23 @@ button:focus,
           animation-direction: alternate;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+}
+
+
+.contact {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.address {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
 }
