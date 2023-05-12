@@ -10,7 +10,7 @@ Secondary Color (blue): #33ffcc;
   --primary-color: #367b70;
   --secondary-color: #33ffcc;
   --dark-grey: #2b2b2b;
-  --background-color: lightcyan;
+  --background-color: #ffffff;
 }
 
 body {
@@ -151,19 +151,41 @@ button:focus,
   margin-left: 15px;
 }
 
+.work {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  text-align: center;
+  justify-content: center;
 }
 
 .grid__item {
-  background-color: var(--dark-grey);
+  background-color: #8AAAE5;
+  padding: 0;
+  border-radius: 6px;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
 }
 
-.grid__item:last-child {
-  grid-column: 3 / 3;
-  grid-row: 1 / 3;
+.grid-content {
+  padding: 15px;
+}
+
+.project-img {
+  width: 100%;
 }
 
 /* start grid fallback */
@@ -183,15 +205,12 @@ button:focus,
 
  }
  .grid__item {
-   background-color: lightgray;
+   background-color: #8AAAE5;
    width: auto;
    min-height: auto;
    margin: 0;
  }
- .grid__item:last-child {
-   grid-column: 3 / 3;
-   grid-row: 1 / 3;
- }
+
 }
 
 @media all and (max-width: 500px) {

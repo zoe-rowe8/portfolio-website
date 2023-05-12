@@ -9,11 +9,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
 <header class="page-header">
-    <!-- Add your logo here -->
+    <!-- logo -->
     <img src="img/logo.png" alt="Personal logo of Zoe Rowe" class="page-header__item">
 <nav class="main-navigation page-header__item">
   <ul role="menubar" class="navigation-list">
@@ -35,57 +35,68 @@
 
 <!-- Main Content -->
 <section>
-  <h1>Work</h1>
-  <div class="grid">
-    <!-- Grid items will live here -->
-    <div class="grid__item">
-     <h2>Mobile web app</h2>
-     <p>
-        Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-     </p>
-     <a href="#">See project on GitHub</a>
-    </div>
-
-    <div class="grid__item">
-     <h2>Game</h2>
-     <p>
-        I created a game.
-     </p>
-     <a href="#">See project on GitHub</a>
-    </div>
-
-    <div class="grid__item">
-     <h2>Something Else</h2>
-     <p>
-        I made something else.
-     </p>
-     <a href="#">See project on GitHub</a>
-    </div>
-
-    <div class="grid__item">
-     <h2>Another one</h2>
-     <p>
-        Oh, something else I made.
-     </p>
-     <a href="#">See project on GitHub</a>
-    </div>
-
-    <div class="grid__item">
-     <h2>Ooo one more</h2>
-     <p>
-        Look at this!
-     </p>
-     <a href="#">See project on GitHub</a>
-    </div>
-
-    <div class="grid__item">
-     <h2>Your project?</h2>
-     <p>
-        Enquire now!
-     </p>
-     <a href="#">See project on GitHub</a>
-    </div>
-
+  <div class="work">
+      <h1 id="work_title">Work</h1>
+      <div class="grid">
+          <div class="grid__item">
+              <img class="project-img" src="img/pokedex.png" alt="Pokedex">
+              <div class="grid-content">
+                  <h2>Pokedex</h2>
+                  <p>This project is a Pokedex App that loads a list of Pokemon from a Pokemon API. When you click on a Pokemon, it then displays a modal with the Pokemons picture and details.</p>
+                  <a href="https://zoe-rowe8.github.io/simple-js-app/" target="_blank">Go to site</a><br>
+                  <a href="https://github.com/zoe-rowe8/simple-js-app" target="_blank">See project on
+                      Github</a>
+              </div>
+          </div>
+          <div class="grid__item">
+              <img class="project-img" src="img/todo.png" alt="To Do List App">
+              <div class="grid-content">
+                  <h2>To Do List App</h2>
+                  <p>This app allows you to create your own to do list. You can add as many list items as you like and cross them off as you go. </p>
+                  <a href="https://zoe-rowe8.github.io/To-do-list-app/" target="_blank">Go to site</a><br>
+                  <a href="https://github.com/zoe-rowe8/To-do-list-app" target="_blank">See project on Github</a>
+              </div>
+          </div>
+          <div class="grid__item">
+              <img class="project-img" src="img/meet.png" alt="Meet App">
+              <div class="grid-content">
+                  <h2>Meet App</h2>
+                  <p>This app allows users to search for a city and get a list of events that are taking place in that city. This app was developed to build a serverless, progressive web applicatio with React using a test-driven development technique. The app uses a Google Calendar API to search for the upcoming events.</p>
+                  <a href="https://zoe-rowe8.github.io/meet/" target="_blank">Go to site</a><br>
+                  <a href="https://github.com/zoe-rowe8/meet" target="_blank">See project on Github</a>
+              </div>
+          </div>
+          <div class="grid__item">
+              <img class="project-img" src="img/myflix.png" alt="MyFlix">
+              <div class="grid-content">
+                  <h2>MyFlix Movie Database</h2>
+                  <p>This is a full-stack project with an API and Database as backend and a React single page
+                      application as frontend. User can register, edit their account, delete their
+                      account and add and remove movies from their list of favorites.</p>
+                  <a href="https://myflix-cfzr-achievement.netlify.app/" target="_blank">Go to site</a><br>
+                  <a href="https://github.com/zoe-rowe8/myFlix-client" target="_blank">See frontend on
+                      Github</a><br>
+                  <a href="https://github.com/zoe-rowe8/movie_api" target="_blank">See backend on Github</a>
+              </div>
+          </div>
+          <div class="grid__item">
+              <img class="project-img" src="img/pending.png" alt="Pending">
+              <div class="grid-content">
+                  <h2>Pending</h2>
+                  <p>Pending.</p>
+                  <a href="https://github.com/zoe-rowe8" target="_blank">See project on
+                      Github</a><br>
+              </div>
+          </div>
+          <div class="grid__item">
+              <img class="project-img" src="img/pending.png" alt="Pending">
+              <div class="grid-content">
+                  <h2>Pending</h2>
+                  <p>Pending.</p>
+                  <a href="https://github.com/zoe-rowe8" target="_blank">Go to site</a><br>
+              </div>
+          </div>
+      </div>
   </div>
 </section>
 
